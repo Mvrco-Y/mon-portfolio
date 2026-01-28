@@ -8,54 +8,52 @@
     <title>portfolio</title>
   </head>
   <body>
-      <nav class="bg-gray-200 p-4 flex justify-between">
-      <a href="#accueil" class="px-4 py-2 hover:bg-gray-300 rounded">Accueil</a>
-      <a href="#contact" class="px-4 py-2 hover:bg-gray-300 rounded">Contact</a>
-    </nav>
+    <header>
+      <nav>
+        <ul>
+            <li><a href="#accueil">Accueil</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="accueil">
+        <div>
+          <div id="info">
 
+            <div>
+              <h2>Jean-Marc KONAN</h2>
+              <p>Developpeur Javascript à votre service</p>
+            </div>
 
-    <section class="flex items-center justify-between p-8 bg-white shadow-md rounded-lg">
-      <div>
-        <h1 class="text-2xl font-bold">Jean-Marc KONAN</h1>
-        <p class="text-gray-600">Développeur Javascript à votre service</p>
-        <button class="mt-4 bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">
-          ME CONTACTER
-        </button>
-      </div>
-      <div class="w-32 h-32 bg-gray-300 rounded-full"></div>
-    </section>
+            <div>
+              <button>Me contacter</button>
+            </div>
 
-    <section>
-      <div class="grid grid-cols-3 gap-4 p-8">
-        <div class="bg-gray-100 p-4 rounded shadow">JAVASCRIPT</div>
-        <div class="bg-gray-100 p-4 rounded shadow">REACT JS</div>
-        <div class="bg-gray-100 p-4 rounded shadow">NEST JS</div>
-      </div>
+          </div>
 
-    </section>
+          <div id="photo">
+            <img src="" alt="">
+          </div>
 
-    <form class="bg-white p-6 rounded shadow-md space-y-4">
-      <label class="block">
-        <span class="text-gray-700">Votre Nom:</span>
-        <input type="text" class="mt-1 block w-full border-gray-300 rounded-md shadow-sm"/>
-      </label>
-      <label class="block">
-        <span class="text-gray-700">Votre Email:</span>
-        <input type="email" class="mt-1 block w-full border-gray-300 rounded-md shadow-sm"/>
-      </label>
-      <label class="block">
-        <span class="text-gray-700">Votre Message:</span>
-        <textarea class="mt-1 block w-full border-gray-300 rounded-md shadow-sm"></textarea>
-      </label>
-      <button class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">Envoyer</button>
-    </form>
+        </div>
 
-    <footer class="bg-gray-200 p-6 flex justify-center gap-4">
-      <div class="w-10 h-10 bg-white rounded-full flex items-center justify-center">F</div>
-      <div class="w-10 h-10 bg-white rounded-full flex items-center justify-center">X</div>
-      <div class="w-10 h-10 bg-white rounded-full flex items-center justify-center">In</div>
-      <div class="w-10 h-10 bg-white rounded-full flex items-center justify-center">Git</div>
-  </footer>
+      </section>
 
+      <section id="bouton">
+        <div>
+          <a href="#competence">Competence</a>
+          <a href="pageprojet/projet.html">Projet</a>
+          <a href="moncv">Mon CV</a>
+        </div>
+      </section>
+
+      <section id="competence">
+
+      </section>
+    </main>
+    <footer>
+
+    </footer>
   </body>
 </html>
